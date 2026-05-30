@@ -87,7 +87,8 @@ resource "aws_iam_role_policy" "github_actions_terraform" {
 
           "elasticloadbalancing:*",
 
-          "autoscaling:*"
+          "autoscaling:*",
+          "secretsmanager:*"
         ]
         Resource = "*"
       }
