@@ -4,7 +4,8 @@ WORKDIR /app
 
 RUN corepack enable
 RUN corepack prepare pnpm@9.15.0 --activate
-
+RUN pnpm run build-docker
+RUN npx prisma generate
 
 ENV DATABASE_URL="postgresql://user:password@localhost:5432/dummy"
 
