@@ -1,4 +1,5 @@
-# Umami Analytics on AWS EKS
+#  Cloud Analytics Platform
+
 
 Deployment of Umami Analytics on AWS EKS using Terraform, ArgoCD, and GitHub Actions. The project focuses on infrastructure automation, GitOps based application delivery, monitoring, secret management, and Kubernetes operations on AWS.
 
@@ -26,7 +27,7 @@ Umami is a simple, fast, privacy focused alternative to Google Analytics. It pro
 - Custom event tracking
 - Real-time visitor monitoring
 
-[Umami Application Screenshot] <img width="940" height="481" alt="image" src="https://github.com/user-attachments/assets/d5d65237-cff0-42ef-92d2-7028d2b36e03" /><img width="940" height="465" alt="image" src="https://github.com/user-attachments/assets/d2e6a214-e271-4ed0-b45f-206b4868c510" />
+[Application Screenshot] <img width="940" height="481" alt="image" src="https://github.com/user-attachments/assets/d5d65237-cff0-42ef-92d2-7028d2b36e03" /><img width="940" height="465" alt="image" src="https://github.com/user-attachments/assets/d2e6a214-e271-4ed0-b45f-206b4868c510" />
 
 )
 
@@ -327,5 +328,4 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ## Contact
 
 **Mohamed** - [GitHub](https://github.com/mohamed67471)  
-**Project Repository**: [https://github.com/mohamed67471/umami-eks-project](https://github.com/mohamed67471/umami-eks-project)  
-
+**Project Repository**: [https://github.com/mohamed67471/cloud-analytics-platform](https://github.com/mohamed67471/cloud-analytics-platform)
