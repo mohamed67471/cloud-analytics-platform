@@ -1,13 +1,13 @@
 # Umami Analytics on AWS EKS
 
-A production-grade Kubernetes deployment of Umami Analytics on AWS EKS, demonstrating cloud-native best practices, GitOps workflows, and infrastructure automation.
+Deployment of Umami Analytics on AWS EKS using Terraform, ArgoCD, and GitHub Actions. The project focuses on infrastructure automation, GitOps based application delivery, monitoring, secret management, and Kubernetes operations on AWS.
 
 
 
 
 ## About the Application
 
-Umami is a simple, fast, privacy-focused alternative to Google Analytics. It provides website analytics while respecting user privacy - no cookies, no tracking across sites, and full compliance with GDPR, CCPA, and PECR.
+Umami is a simple, fast, privacy focused alternative to Google Analytics. It provides website analytics while respecting user privacy - no cookies, no tracking across sites, and full compliance with GDPR, CCPA, and PECR.
 
 ### Why Umami?
 
@@ -237,6 +237,8 @@ GitHub Actions uses OpenID Connect for secure AWS authentication without storing
 ---
 
 ## Project Structure
+
+```
 umami-eks-project/
 ├── terraform/
 │   ├── modules/
