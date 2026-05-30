@@ -25,7 +25,6 @@ kubeconfig
 *.key
 secrets/
 .env
-*-secret*.yaml
 
 # OS
 .DS_Store
